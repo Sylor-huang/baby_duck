@@ -1,0 +1,37 @@
+{
+  "name": "cluna_vue",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:serve": "vite build --mode  build-serve",
+    "serve": "vite preview --mode build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.1.4",
+    "axios": "^0.26.1",
+    "element-plus": "^2.2.2",
+    "js-cookie": "^3.0.1",
+    "nprogress": "^0.2.0",
+    "path": "^0.12.7",
+    "vue": "^3.2.25",
+    "vue-i18n": "^9.2.0-beta.33",
+    "vue-meta": "^3.0.0-alpha.2",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "sass": "^1.52.1",
+    "scss": "^0.2.4",
+    "tailwindcss": "^3.0.24",
+    "unplugin-auto-import": "^0.8.6",
+    "unplugin-element-plus": "^0.4.0",
+    "unplugin-vue-components": "^0.19.6",
+    "vite": "^2.9.9"
+  }
+}
