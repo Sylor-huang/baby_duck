@@ -27,5 +27,7 @@
 import { ref, onMounted } from "vue";
 import { Sidebar, AppMain } from "./components";
 const current_date = new Date();
+import ResizeHook from './hook/ResizeHandler'
+ResizeHook()
 </script>
 
