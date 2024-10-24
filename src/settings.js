@@ -1,7 +1,7 @@
 const current_date = new Date
 
 const setting = {
-  title: '天然产物生信分析工具',
+  title: 'Baby Duck',
   theme: "light",
   copyright: current_date.getFullYear() + '© PSMPA',     //copyright
   /**

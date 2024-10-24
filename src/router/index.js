@@ -5,28 +5,18 @@ export const constantRoutes = [
   {
     path: '/',
     component: Layout,
-    redirect: '/home',
     children: [
       {
-        path: 'home',
+        path: '/',
         name: 'Home',
         component: () => import('@/views/home/index'),
-        meta: { title: 'Home' }
+        meta: { title: 'Baby Duck' }
       },
       {
-        path: '/404',
-        component: () => import('@/views/error-page/404'),
-        hidden: true
-      },
-      {
-        path: '/403',
-        component: () => import('@/views/error-page/403'),
-        hidden: true
-      },
-      {
-        path: '/500',
-        component: () => import('@/views/error-page/500'),
-        hidden: true
+        path: '/white_lists',
+        name: 'White Lists',
+        component: () => import('@/views/home/WhiteLists'),
+        meta: { title: 'White Lists' }
       }
     ]
   }, {

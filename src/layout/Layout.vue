@@ -1,25 +1,26 @@
 <template>
-  <div>
-    <el-container>
-      <el-header class="shadow-md">
-        <el-scrollbar>
-          <div class="flex flex-row">
-            <router-link class="inline-block" to="/">
-              <img src="@/assets/logo.png" class="h-12 my-1.5 mx-auto" />
-            </router-link>
-            <div class="flex-1 text-right">
-              <Sidebar></Sidebar>
-            </div>
-          </div>
-        </el-scrollbar>
-      </el-header>
-      <el-main>
-        <AppMain />
-      </el-main>
-      <el-footer>
-        <span class="mr-4">{{ current_date.getFullYear() }} © BASE VUE</span>
-      </el-footer>
-    </el-container>
+  <div class="bg-gradient-to-b from-yellow-300 to-green-300">
+    <header class="p-4">
+      <nav class="max-w-6xl mx-auto flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+          <img
+            src="@/assets/duck-logo.svg"
+            alt="Baby Duck Logo"
+            class="w-12 h-12"
+          />
+          <span class="text-2xl font-bold text-gray-800"
+            >Baby Duck Community</span
+          >
+        </div>
+        <div class="space-x-6">
+          <a href="/" class="text-gray-800 hover:text-gray-600">Home</a>
+          <a href="/white_lists" class="text-gray-800 hover:text-gray-600"
+            >Whitelist Compensate</a
+          >
+        </div>
+      </nav>
+    </header>
+    <AppMain />
   </div>
 </template>
 
@@ -27,7 +28,7 @@
 import { ref, onMounted } from "vue";
 import { Sidebar, AppMain } from "./components";
 const current_date = new Date();
-import ResizeHook from './hook/ResizeHandler'
-ResizeHook()
+import ResizeHook from "./hook/ResizeHandler";
+ResizeHook();
 </script>
 
