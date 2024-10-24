@@ -13,10 +13,15 @@
           >
         </div>
         <div class="space-x-6">
-          <a href="/" class="text-gray-800 hover:text-gray-600">Home</a>
-          <a href="/white_lists" class="text-gray-800 hover:text-gray-600"
-            >Whitelist Compensate</a
+          <router-link to="/" class="text-gray-800 hover:text-gray-600">
+            Home
+          </router-link>
+          <router-link
+            to="/white_lists"
+            class="text-gray-800 hover:text-gray-600"
           >
+            Whitelist Compensate
+          </router-link>
         </div>
       </nav>
     </header>

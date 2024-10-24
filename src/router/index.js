@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 import Layout from '@/layout'
 
 export const constantRoutes = [
@@ -46,7 +46,7 @@ export const constantRoutes = [
 export const asyncRoutes = []
 
 const router = createRouter({
-  history: createWebHistory('/baby_duck/'),
+  history: createWebHashHistory('/baby_duck/'),
   scrollBehavior: () => ({ top: 0 }),
   routes: constantRoutes
 })
