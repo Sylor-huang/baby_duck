@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "build:serve": "vite build --mode  build-serve",
-    "serve": "vite preview --mode build"
+    "serve": "vite preview --mode build",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^1.1.4",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.14",
     "sass": "^1.52.1",
     "scss": "^0.2.4",
