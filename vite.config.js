@@ -13,7 +13,7 @@ export default defineConfig({
     'process.platform': null,
     'process.version': null
   },
-  base: './',
+  base: '/baby_duck/',
   // base: './',
   clearScreen: false,
   server: {

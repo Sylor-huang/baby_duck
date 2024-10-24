@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "build:serve": "vite build --mode  build-serve",
     "serve": "vite preview --mode build",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^1.1.4",

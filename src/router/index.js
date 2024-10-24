@@ -46,7 +46,7 @@ export const constantRoutes = [
 export const asyncRoutes = []
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/baby_duck/'),
   scrollBehavior: () => ({ top: 0 }),
   routes: constantRoutes
 })
