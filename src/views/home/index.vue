@@ -2,8 +2,8 @@
   <div class="min-h-screen bg-gradient-to-b from-yellow-300 to-green-300">
     <!-- Hero Section -->
     <section class="max-w-6xl mx-auto py-8 md:py-16 px-4">
-      <div class="flex flex-col md:flex-row items-center justify-between">
-        <div class="w-full md:w-1/2 order-2 md:order-1">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="w-full md:w-1/3 order-2 md:order-1">
           <div class="relative mx-auto max-w-[280px] md:max-w-full">
             <div class="absolute inset-0 bg-yellow-400 rounded-full blur-2xl opacity-20"></div>
             <img
@@ -13,7 +13,7 @@
             />
           </div>
         </div>
-        <div class="w-full md:w-1/2 space-y-4 md:space-y-6 text-center md:text-left order-1 md:order-2 mb-8 md:mb-0">
+        <div class="w-full md:w-2/3 space-y-4 md:space-y-6 text-center md:text-left order-1 md:order-2 mb-8 md:mb-0">
           <h1 class="text-3xl md:text-5xl font-bold text-gray-800">
             Welcome to Baby Duck Community
           </h1>
@@ -24,7 +24,7 @@
           <p class="text-lg md:text-xl text-gray-700">
             Our goal is the stars and the sea!
           </p>
-          <p class="border-2 border-black px-4 md:px-6 py-2 md:py-3 rounded-lg hover:bg-black hover:text-white text-sm md:text-base break-all">
+          <p class="border-2 border-black px-4 md:px-6 py-2 md:py-3 rounded-lg text-sm md:text-base break-all">
             <el-space>
               <span>CA:</span>
               <h3>0x93e56051f65a75b78a9ea4fddb5f9bcc44ce0bca</h3>
@@ -42,7 +42,21 @@
                   alt="Telegram"
                   class="w-4 h-4"
                 />
-                <span>Join Telegram</span>
+                <span>CN Telegram</span>
+              </el-space>
+            </a>
+            <a
+              href="https://t.me/babyduck_global_chill"
+              target="_blank"
+              class="border-2 border-black px-4 md:px-6 py-2 md:py-3 rounded-lg hover:bg-black hover:text-white text-sm md:text-base"
+            >
+              <el-space>
+                <img
+                  src="@/assets/icons8-telegram-250.svg"
+                  alt="Telegram"
+                  class="w-4 h-4"
+                />
+                <span>EN Telegram</span>
               </el-space>
             </a>
             <a
@@ -56,7 +70,7 @@
                   alt="Twitter"
                   class="w-4 h-4"
                 />
-                <span>Join Twitter</span>
+                <span>Join X</span>
               </el-space>
             </a>
             <a
@@ -64,7 +78,7 @@
               target="_blank"
               class="border-2 border-black px-4 md:px-6 py-2 md:py-3 rounded-lg hover:bg-black hover:text-white text-sm md:text-base"
             >
-              Price chart
+              Price Chart
             </a>
           </div>
         </div>
